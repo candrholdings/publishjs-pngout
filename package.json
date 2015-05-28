@@ -1,0 +1,30 @@
+{
+  "name": "publishjs-pngout",
+  "version": "0.0.1-dev",
+  "description": "Integrate pngout with PublishJS",
+  "keywords": [
+    "pngout",
+    "grunt",
+    "gulp",
+    "publishjs"
+  ],
+  "license": "MIT",
+  "email": "william.wong@candrholdings.com",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candrholdings/publishjs-pngout.git"
+  },
+  "scripts": {
+    "test": "vows src/test/*-test.js --spec"
+  },
+  "dependencies": {
+    "pngout-bin": "^2.0.1",
+    "publishjs": "file:..\\core"
+  },
+  "devDependencies": {
+    "async": "^1.0.0",
+    "async-linq": "^1.0.2",
+    "vows": "^0.8.1"
+  }
+}
