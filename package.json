@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "pngout-bin": "^2.0.1",
-    "publishjs": "file:..\\core"
+    "publishjs": "git:git@github.com:candrholdings/publishjs.git"
   },
   "devDependencies": {
     "async": "^1.0.0",
