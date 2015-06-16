@@ -7,6 +7,11 @@
     module.exports = function (inputs, outputs, callback) {
         var that = this;
 
+        inputs.deleted.forEach(function (filename) {
+            // If the deleted file is not a PNG, we still need to remove it from output
+            outputs[filename] = null;
+        });
+
         inputs = inputs.newOrChanged;
 
         async.forEachOf(inputs, function (buffer, filename, callback) {
