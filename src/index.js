@@ -20,6 +20,7 @@
 
                 return callback();
             }
+
             var startTime = Date.now(),
                 original = inputs[filename];
 
