@@ -21,7 +21,7 @@
   "dependencies": {
     "async": "^1.2.0",
     "pngout-bin": "^2.0.1",
-    "publishjs": "git:git@github.com:candrholdings/publishjs.git"
+    "publishjs": "*"
   },
   "devDependencies": {
     "async": "^1.0.0",
