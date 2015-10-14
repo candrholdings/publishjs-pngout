@@ -1,6 +1,6 @@
 {
   "name": "publishjs-pngout",
-  "version": "0.0.2-dev",
+  "version": "0.0.3",
   "description": "Integrate pngout with PublishJS",
   "keywords": [
     "pngout",
@@ -19,12 +19,11 @@
     "test": "vows src/test/*-test.js --spec"
   },
   "dependencies": {
-    "async": "^1.2.0",
     "pngout-bin": "^2.0.1",
-    "publishjs": "*"
+    "publishjs": "^0.0.3"
   },
   "devDependencies": {
-    "async": "^1.0.0",
+    "async": "^1.2.0",
     "async-linq": "^1.0.2",
     "vows": "^0.8.1"
   }
